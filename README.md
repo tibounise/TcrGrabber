@@ -13,5 +13,5 @@ It's a simple piece of software, intended to grab all the links of the MP3s of T
 ```
 python tcrgrabber.py
 # And then
-wget -u urls.txt
+wget -i urls.txt
 ```
