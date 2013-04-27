@@ -31,8 +31,7 @@ print str(len(urls)) + " URLs found."
 # Saving the URLs to a file
 fileHandler = open("urls.txt","w")
 
-for urlID in urls:
-	fileHandler.write(urlID + "\n")
+fileHandler.write("\n".join(urls))
 
 fileHandler.close()
 
