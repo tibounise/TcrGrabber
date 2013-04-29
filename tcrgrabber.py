@@ -5,7 +5,7 @@ import urllib2,re
 
 # Settings the minimum & maximum page number
 minimum = 1
-maximum = 8
+maximum = 10
 
 # Initialize the regular expression to find all the MP3s Url
 regExp = re.compile('http://media\.r-n-d\.net/audio/tcr/tcr[0-9]{6}\.mp3',re.IGNORECASE)
